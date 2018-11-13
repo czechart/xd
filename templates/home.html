@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/test.css' %}">
+<h1>Homepage - aka strona domu</h1>
+
+<p>
+    Oto domek, tak wygląda domek zrobiony z symboli komputerowych:
+</p>
+
+<pre>
+    ) ) 
+   ( (
+    ) )        /\
+   =====      /  \
+  _|___|_____/ __ \____________
+ |::::::::::/ |  | \:::::::::::|
+ |:::::::::/  ====  \::::::::::|
+ |::::::::/__________\:::::::::|
+ |_________|  ____  |__________|
+  | ______ | / || \ | _______ |
+  ||  |   || ====== ||   |   ||
+  ||--+---|| |    | ||---+---||
+  ||__|___|| |   o| ||___|___||
+  |========| |____| |=========|
+ (^^-^^^^^-|________|-^^^--^^^)
+ (,, , ,, ,/________\,,,, ,, ,)
+','',,,,' /__________\,,,',',;;
+</pre>
+
+<p>
+    Domek ten ma cztery okna, ale jedne drzwi. Widać, że ktoś w środku mieszka, bo z komina leci dym. Jest to ładny domek.
+</p>
+
+{% endblock content %}

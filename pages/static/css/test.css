@@ -1,0 +1,30 @@
+html {
+    background: #e6e9e9;
+}
+
+/* nadaje ogolny styl calemu "cialu" */
+body {
+    background: #fff;
+    background: #fff;
+    background: #fff;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica,Lato, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* nadaje ogolny styl akapitom */
+p {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* nadaje ogolny styl naglowkom */
+h1, h2, h3 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
